@@ -11,8 +11,10 @@ agent-wiki/
 ├── overview.md            # High-level synthesis of the current state of AI agents
 ├── concepts/              # Foundational ideas, patterns, and techniques
 │   └── <concept>.md
-└── tools/                 # Specific frameworks, libraries, and platforms
-    └── <tool>.md
+├── tools/                 # Specific frameworks, libraries, and platforms
+│   └── <tool>.md
+└── questions/             # Open questions from the editor, answered from wiki content
+    └── <question>.md
 ```
 
 ## Page Types
@@ -35,6 +37,10 @@ Format:
 ## Tools
 
 - [LangGraph](tools/langgraph.md) — Graph-based orchestration framework from LangChain
+
+## Questions
+
+- [When should you use multi-agent systems?](questions/when-to-use-multi-agent.md) — Tradeoffs between single-agent and multi-agent designs
 ```
 
 ### `log.md`
@@ -72,6 +78,41 @@ One page per framework, library, or platform. Examples: `langchain.md`, `langgra
 - Key features and design decisions
 - How it relates to alternatives
 - Links to relevant concept pages
+
+### `questions/<question>.md`
+
+One page per open question posed by the editor. Examples: `when-to-use-multi-agent.md`, `best-memory-architecture.md`. Each page follows this structure:
+
+```markdown
+# <Question stated as a title>
+
+<The question written out in full>
+
+## Background
+
+<Context needed to understand the question. Link generously to relevant wiki pages.>
+
+## Perspectives
+
+### <Perspective or position 1>
+
+<One take on the question, referencing specific wiki pages.>
+
+### <Perspective or position 2>
+
+<A contrasting or complementary take.>
+
+## Answer
+
+<Synthesis of the current best answer, drawn from and linking to wiki pages. If the wiki doesn't yet
+have enough information to answer the question, leave this section as a note describing what's missing.>
+
+## See Also
+
+- [Related Page](../concepts/related.md) — one-line description
+```
+
+Questions are answered solely by referencing existing wiki content. If a question cannot be fully answered, the Answer section notes what information is missing — which informs future research and ingestion.
 
 ## Conventions
 

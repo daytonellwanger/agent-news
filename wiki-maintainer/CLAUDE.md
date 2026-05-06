@@ -9,3 +9,7 @@ Note the wiki contents aren't located in this directory. Read [this](wiki-locati
 ## Wiki Structure
 
 Read [this](design/wiki-structure.md) to understand how the wiki is structured and its conventions.
+
+## Adding a Question
+
+When the user asks you to add a question to the wiki, follow [this](design/how-to-add-question.md).
