@@ -6,7 +6,6 @@ This document defines the structure of the agent-wiki — the persistent, LLM-ma
 
 ```
 agent-wiki/
-├── CLAUDE.md              # Schema: conventions, workflows, and rules for the LLM maintainer
 ├── index.md               # Catalog of all pages, organized by category
 ├── log.md                 # Append-only chronological log of ingests and updates
 ├── overview.md            # High-level synthesis of the current state of AI agents
@@ -74,13 +73,24 @@ One page per framework, library, or platform. Examples: `langchain.md`, `langgra
 - How it relates to alternatives
 - Links to relevant concept pages
 
-### `CLAUDE.md`
-
-The schema document. Tells the LLM maintainer how the wiki is structured, what conventions to follow, and what workflows to use when ingesting a source or updating pages. Co-evolved over time.
-
 ## Conventions
 
 - All pages use standard markdown with wiki-style links (`[Tool Use](concepts/tool-use.md)`).
-- Every non-index, non-log page ends with a `## See Also` section listing related pages.
+- Every non-index, non-log, non-overview page ends with a `## See Also` section listing related pages.
 - The `overview.md` is rewritten (not appended) when significant new information arrives; the log records what changed.
 - Page titles match filenames: `tool-use.md` → `# Tool Use`.
+- `log.md` is append-only — never edit past entries.
+
+## What Belongs in Concepts vs. Tools
+
+- **Concepts**: Ideas, patterns, techniques, and mechanisms — things that exist independent of any specific implementation. Examples: `tool-use.md`, `memory.md`, `multi-agent.md`.
+- **Tools**: Specific frameworks, libraries, SDKs, platforms, or protocols. Examples: `langgraph.md`, `mcp.md`, `openai-agents-sdk.md`.
+
+When in doubt: if you could describe it without naming a product, it's a concept.
+
+## Quality Bar
+
+- Be concise. Each page should be readable in a few minutes.
+- Prefer accurate and current over exhaustive.
+- Link generously between pages — that's what makes this a wiki.
+- Do not repeat information already on a linked page; reference it instead.

@@ -1,0 +1,11 @@
+# CLAUDE.md — Wiki Maintainer Schema
+
+This document tells you, the LLM maintainer, how this wiki is structured and what to do when ingesting new sources.
+
+First, to get some background on what we're trying to achieve, read [this](overview.md).
+
+Note the wiki contents aren't located in this directory. Read [this](wiki-location.txt) for where the wiki is actually saved.
+
+## Wiki Structure
+
+Read [this](design/wiki-structure.md) to understand how the wiki is structured and its conventions.
