@@ -8,17 +8,19 @@ Create a new file at `questions/<slug>.md` in the wiki. Follow the format define
 
 Update `index.md` to add an entry under `## Questions`.
 
-## 2. Try to answer the question from existing wiki content
+## 2. Find related questions and relevant wiki content
 
-Read `index.md` to identify relevant wiki pages. Read them. Determine whether existing wiki content is sufficient to answer the question.
+Read `index.md`. First, identify any existing questions that relate to this one — questions are rarely asked in isolation and prior answers often contain context, framing, or conclusions this answer can build on. Read those question pages in full (background and answer).
+
+Then identify relevant concept and tool pages. Read them. Determine whether the combined existing content (questions + wiki pages) is sufficient to answer the question.
 
 ## 3a. If existing content is sufficient
 
-Write the Answer section. Ground every claim in a specific wiki page and link to it. Keep it concise — the linked pages contain the detail.
+Write the Answer section. Ground every claim in a specific wiki page and link to it. Where related questions have already established context or reached a conclusion this answer depends on, link to those questions rather than restating the reasoning. Keep it concise — the linked pages contain the detail.
 
 ## 3b. If existing content is not sufficient
 
-Do targeted research: search the web for information relevant to the question. Update or create wiki pages with what you find, following `design/how-to-update-wiki.md`. Then write the Answer section drawing on the updated wiki.
+Do targeted research: search the web for information relevant to the question. Update or create wiki pages with what you find, following `design/how-to-update-wiki.md`. Then write the Answer section drawing on the updated wiki and any related questions identified in step 2.
 
 If the question still can't be fully answered after research, write the best partial answer you can and note what remains unknown.
 
