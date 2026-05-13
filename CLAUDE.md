@@ -12,3 +12,9 @@ I'm building an AI agent that maintains a wiki on AI agents. Read `wiki-maintain
 - **Everything else** — meta-code for building and improving `wiki-maintainer/`. For example, instructions on how to update the wiki belong in `wiki-maintainer/`; instructions on how to update those instructions belong outside it.
 
 The wiki itself lives in a separate repo. See `wiki-maintainer/wiki-location.txt` for its location.
+
+## Design Principles
+
+### Keep reusable logic in its own file
+
+When a piece of logic could be useful in more than one flow, extract it into a dedicated file rather than inlining it everywhere it's needed. Other files then reference that file instead of duplicating the steps. This keeps each flow focused and makes shared logic easy to find and update in one place.
