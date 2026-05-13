@@ -22,6 +22,14 @@ Do targeted research: search the web for information relevant to the question. U
 
 If the question still can't be fully answered after research, write the best partial answer you can and note what remains unknown.
 
-## 4. Update the log
+## 4. Ensure coverage of referenced concepts and tools
 
-Append a log entry noting the new question page and, if you did research, what wiki pages were updated.
+Re-read the completed Answer section. Enumerate every major concept and tool it mentions — these are the building blocks a reader would need to understand or follow up on the answer.
+
+For each one, check `index.md` to see whether a corresponding wiki page already exists. For any that are missing, follow `design/how-to-add-concept-or-tool.md` to create the page.
+
+Do this for every missing page before moving on. The goal is that every concept and tool named in the answer is a live link a reader can follow.
+
+## 5. Update the log
+
+Append a log entry noting the new question page and, if you did research, what wiki pages were updated or created.
