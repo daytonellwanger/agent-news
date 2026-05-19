@@ -37,9 +37,14 @@ A post is relevant if it primarily concerns:
 - LLMs, language models, or AI reasoning and planning
 - Agent frameworks, tools, or infrastructure (e.g., memory, orchestration, sandboxing)
 - Agent evaluation, safety, or alignment
-- Notable AI labs, products, or research in the agent space
+- Notable AI research in the agent space
 
-When in doubt, err on the side of including the post — the `hn-post-digester` will determine whether it contains anything new worth adding to the wiki.
+Filter out posts that are unlikely to produce wiki-worthy content per the wiki's mission (see `design/wiki-structure.md`):
+- Personality profiles, interviews, or content about individuals
+- Routine model version releases or incremental benchmark results
+- Business news (funding, partnerships, acquisitions) without substantial technical content
+
+When in doubt, err on the side of including the post — the `hn-post-digester` will make the final call on whether it contains anything worth adding.
 
 ## Step 5: Process Each Relevant Post
 

@@ -165,6 +165,28 @@ Opinions represent the editor's personal views and are not required to be derive
 
 When in doubt: if you could describe it without naming a product, it's a concept.
 
+## Mission
+
+The wiki exists to track **significant, durable developments** in AI agents: new techniques, architectural patterns, frameworks, and capability advances that matter to someone building or thinking seriously about agents.
+
+It is not a news feed. It should not grow unboundedly. A smaller wiki with high-signal entries is better than a comprehensive one diluted by noise.
+
+### What belongs
+
+- New agent architectures, patterns, or techniques that represent a genuine advance
+- Frameworks, SDKs, and tools that meaningfully change how agents are built
+- Research results that shift understanding of what agents can or can't do
+- Model releases, but **only** if the model represents a significant capability jump relevant to agents (e.g., substantially better tool use, reasoning, or context handling) — not routine version bumps or benchmark improvements
+
+### What does not belong
+
+- Personality-driven content: profiles, interviews, takes on individuals, org drama
+- Routine model announcements, version releases, or incremental benchmark improvements
+- News that is primarily business/hype (funding rounds, partnerships, market share) without technical substance
+- Ephemeral events: conference recaps, product launches without novel technical content
+
+When in doubt, ask: *would someone building an agent in six months still care about this?* If yes, it belongs. If it's likely to be forgotten or superseded quickly, it does not.
+
 ## Quality Bar
 
 - Be concise. Each page should be readable in a few minutes.
