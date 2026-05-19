@@ -1,8 +1,6 @@
 # Overview
 
-This project maintains a wiki on AI agents — concepts, patterns, tools, and more.
-
-The wiki is fully maintained by an agent, which keeps it up to date by reading discussions on the internet.
+This project is to help maintain a wiki on AI agents — concepts, patterns, tools, and more.
 
 ## Structure
 
@@ -12,12 +10,8 @@ It lives in its own repo, found [here](https://github.com/daytonellwanger/agent-
 
 ## Updating the Wiki
 
-On a schedule, the agent pulls sources from the internet (e.g., Hacker News, Reddit, X) and checks whether each source is relevant. If it is, the agent determines whether it contains new information or whether the ideas are already captured in the wiki — and if new, decides how to update it.
+The agent helps update the wiki.
 
-## Capturing What's Changed
+It can research new concepts and tools and add pages for them. It can answer questions I ask it (based on the existing wiki contents). It can read Hacker News and update the wiki based on new things it encounters.
 
-What's most useful to readers is knowing what has changed and how it should update their understanding of AI agents — something like a newsletter of the latest developments.
-
-One advantage over typical newsletters or forums is that we can limit commentary to what has actually changed. We can assume readers are already familiar with the existing wiki contents (and they can always consult the wiki directly if not).
-
-When the agent processes a batch of news and updates the wiki, it also records what changed in a log. This includes a technical summary (files touched, links added, etc.) and a reader-friendly summary suitable for a newsletter email.
+When making changes, it makes sure the wiki conventions are respected.

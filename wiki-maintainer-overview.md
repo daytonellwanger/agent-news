@@ -18,7 +18,7 @@ The top-level system prompt for the agent. Points the agent to the other documen
 
 ### `overview.md`
 
-A plain-language description of what the project is trying to accomplish — what the wiki is, how it gets updated, and the newsletter/changelog concept. Written for the agent to read as orientation, but also useful for human collaborators.
+A plain-language description of what the project is trying to accomplish — what the wiki is, how it gets updated, and the log concept. Written for the agent to read as orientation, but also useful for human collaborators.
 
 ---
 
