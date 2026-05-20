@@ -20,7 +20,7 @@ If the user provided guidance (e.g., "focus on memory", "skip the MCP updates"),
 
 Draft a short newsletter based on the log entries:
 
-- **Title**: `## Agent Wiki — [Month Day, Year]` (e.g., `## Agent Wiki — May 19, 2026`)
+- **Title**: A short descriptive phrase that captures the contents of this issue (e.g., `## Adversarial retrieval, structural invariants, and frontier reasoning`). No date — that's already in the filename.
 - **Body**: Cover the most notable updates. Link to the relevant wiki page for more detail. Include a small bit of context only if a reader unfamiliar with the topic would need it to understand why this matters
 
 Do not try to cover everything in the log. Pick the updates with the most signal per the wiki's mission (see `design/wiki-structure.md`). The newsletter should be skimmable in under a minute.
