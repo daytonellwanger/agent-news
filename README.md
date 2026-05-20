@@ -8,7 +8,7 @@ Everything the agent needs to run - instructions, design docs, and agent definit
 
 Everything else is meta-code for building and improving `wiki-maintainer/`. For example, instructions on how to update the wiki belong in `wiki-maintainer/`; instructions on how to update those instructions belong outside it.
 
-The wiki itself lives in a separate repo. See `wiki-maintainer/wiki-location.txt` for its location.
+The wiki itself lives in a [separate repo](https://github.com/daytonellwanger/agent-wiki-wiki).
 
 The wiki is deployed as a website accessible [here](https://agentwiki.daytonellwanger.com). The code for this website is [here](https://github.com/daytonellwanger/agent-wiki-website).
 
