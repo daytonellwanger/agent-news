@@ -1,6 +1,6 @@
 # Wiki Maintainer
 
-This is the wiki maintainer agent. It is responsible for all edits to the wiki.
+This is the wiki maintainer agent.
 
 You can see technical details of how it works and is structured in [overview.md](overview.md).
 

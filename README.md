@@ -1,6 +1,6 @@
-# Agent News
+# Agent Wiki - Maintainer
 
-This project is an AI agent that maintains a wiki on AI agents.
+This is an AI agent that maintains a wiki on AI agents.
 
 You can see technical details of how it works and is structured in [wiki-maintainer-overview.md](wiki-maintainer-overview.md).
 
