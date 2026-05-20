@@ -10,7 +10,7 @@ Everything else is meta-code for building and improving `wiki-maintainer/`. For 
 
 The wiki itself lives in a separate repo. See `wiki-maintainer/wiki-location.txt` for its location.
 
-The wiki is deployed as a website accessible [here](https://agentwiki.daytonellwanger.com). The code for this website is [here](https://github.com/daytonellwanger/wiki-website).
+The wiki is deployed as a website accessible [here](https://agentwiki.daytonellwanger.com). The code for this website is [here](https://github.com/daytonellwanger/agent-wiki-website).
 
 ## Examples
 

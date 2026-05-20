@@ -6,7 +6,7 @@ This project is to help maintain a wiki on AI agents — concepts, patterns, too
 
 The wiki is a collection of interlinked markdown files, inspired by [Karpathy's LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
 
-It lives in its own repo, found [here](https://github.com/daytonellwanger/agent-wiki).
+It lives in its own repo, found [here](https://github.com/daytonellwanger/agent-wiki-wiki).
 
 ## Updating the Wiki
 
