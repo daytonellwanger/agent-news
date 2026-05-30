@@ -28,6 +28,7 @@ Do not try to cover everything in the log. Pick the updates with the most signal
 Drafting principles:
 
 - **No theme sentence.** Don't open with a sentence that tries to group all the updates into a single theme. Lead directly with the first item.
+- **Don't reference the source.** Content should stand on its own — don't mention articles, posts, or comments as the source of an insight. State the insight directly.
 - **Lead with principles, not particulars.** When a log entry uses a specific project or company as an example, open with the general insight and name the example afterward — not the other way around.
 - **Skip old news.** If a development was already widely known before the log entry was written, omit it.
 - **Skip business news.** Company acquisitions, funding rounds, and similar corporate events are generally not of interest to the newsletter's audience (people building agents). Skip them unless there's a direct technical implication.
