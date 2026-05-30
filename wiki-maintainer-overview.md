@@ -58,6 +58,10 @@ Step-by-step instructions for when the user says "digest today's HN". Fetches th
 
 Step-by-step instructions for generating a newsletter on demand. Finds the last newsletter in `newsletters/` (the watermark), reads `log.md` entries since then, drafts a brief digest, reviews with the editor, and saves the result as `newsletters/YYYY-MM-DD.md`.
 
+### `design/how-to-run-daily-flow.md`
+
+Step-by-step instructions for the full automated daily flow: digest today's HN posts, generate and auto-save the newsletter, then commit and push all changes to GitHub.
+
 ## Subagents (`.claude/agents/`)
 
 These are specialized Claude agents invoked for specific ingestion tasks.

@@ -29,3 +29,7 @@ When the user says "digest today's HN", follow [this](design/how-to-digest-hn-to
 ## Sending a Newsletter
 
 When the user asks you to send or generate a newsletter, follow [this](design/how-to-send-newsletter.md).
+
+## Running the Daily Flow
+
+When the user asks you to "run the daily flow" or "run today's flow", follow [this](design/how-to-run-daily-flow.md).
